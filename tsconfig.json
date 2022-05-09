@@ -1,14 +1,14 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es2016",
         "module": "commonjs",
         "declaration": true,
         "outDir": "./lib",
         "strict": true,
         "lib": [
-            "es6",
+            "esnext",
             "dom"
-        ]
+        ],
     },
     "include": [
         "src"
