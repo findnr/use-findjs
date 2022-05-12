@@ -1,10 +1,10 @@
 <!--
  * @Author: 程英明
  * @Date: 2022-05-09 22:06:35
- * @LastEditTime: 2022-05-12 20:43:16
+ * @LastEditTime: 2022-05-12 21:06:36
  * @LastEditors: 程英明
  * @Description: 
- * @FilePath: \use-findjs\test\local.html
+ * @FilePath: \use-findjs\test\download.html
  * QQ:504875043@qq.com
 -->
 <!DOCTYPE html>
@@ -17,17 +17,16 @@
     <title>Document</title>
     <script src="../lib/ctools.mini.js"></script>
 </head>
+<button id="file">下载测试文件</button>
 
 <body>
 
 </body>
 <script>
-    ctools.useClocal().set({ name: 12456, token: 'fdsafdasfdsa' });
-    console.log(ctools.useClocal().get('name'))
-    setTimeout(() => {
-        ctools.useClocal().clear();
-    }, 3000)
-
+    let obj = document.querySelector("#file");
+    addEventListener('click', () => {
+        ctools.useCdownload().get('http://www.gzwea.com/Public/kind/attached/file/20220505/20220505062222_35827.xls', 'text.xls')
+    })
 </script>
 
 </html>
