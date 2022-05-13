@@ -1,58 +1,60 @@
 /*
  * @Author: 程英明
  * @Date: 2022-05-08 14:52:23
- * @LastEditTime: 2022-05-12 20:40:17
+ * @LastEditTime: 2022-05-13 07:21:01
  * @LastEditors: 程英明
  * @Description:
  * @FilePath: \use-findjs\src\index.ts
  * QQ:504875043@qq.com
  */
-import local from "./local/index"
+
+import * as local from "./local/index"
+console.log(local)
 export const useClocal = () => {
-    return local;
+    return local.default;
 }
 
-import animation from "./animation/index"
+import * as animation from "./animation/index"
 export const useCanimation = () => {
-    return animation;
+    return animation.default;
 }
 
-import array from "./array/index"
+import * as array from "./array/index"
 export const useCarray = () => {
-    return array;
+    return array.default;
 }
 
-import detector from "./detector/index"
+import * as detector from "./detector/index"
 export const useCdetector = () => {
-    return detector;
+    return detector.default;
 }
 
-import download from "./download/index"
+import * as download from "./download/index"
 export const useCdownload = () => {
-    return download;
+    return download.default;
 }
 
-import number from "./number/index"
+import * as number from "./number/index"
 export const useCnumber = () => {
-    return number;
+    return number.default;
 }
 
-import object from "./object/index";
+import * as object from "./object/index";
 export const useCobject = () => {
-    return object;
+    return object.default;
 }
 
-import session from "./session/index"
+import * as session from "./session/index"
 export const useCsession = () => {
-    return session;
+    return session.default;
 }
 
-import string from "./string/index";
+import * as string from "./string/index";
 export const useCstring = () => {
-    return string;
+    return string.default;
 }
 
-import time from "./time/index"
+import * as time from "./time/index"
 export const useCtime = () => {
-    return time;
+    return time.default;
 }
