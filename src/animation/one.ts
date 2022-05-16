@@ -1,7 +1,7 @@
 /*
  * @Author: 程英明
  * @Date: 2022-05-14 08:12:23
- * @LastEditTime: 2022-05-14 08:56:33
+ * @LastEditTime: 2022-05-16 09:03:22
  * @LastEditors: 程英明
  * @Description: 
  * @FilePath: \use-findjs\src\animation\one.ts
@@ -58,5 +58,5 @@ class One extends Common {
     error(): Error {
         return Error(`没有此运动模式`);
     }
-
 }
+export default One;
