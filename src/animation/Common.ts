@@ -1,12 +1,13 @@
 /*
  * @Author: 程英明
  * @Date: 2022-05-13 07:16:12
- * @LastEditTime: 2022-05-13 07:52:59
+ * @LastEditTime: 2022-05-17 06:55:32
  * @LastEditors: 程英明
  * @Description: 
  * @FilePath: \use-findjs\src\animation\common.ts
  * QQ:504875043@qq.com
  */
+
 class Common {
     private _animationObj: Object;
     constructor() {

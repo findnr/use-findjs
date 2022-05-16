@@ -1,7 +1,7 @@
 /*
  * @Author: 程英明
  * @Date: 2022-05-08 16:32:06
- * @LastEditTime: 2022-05-16 10:11:10
+ * @LastEditTime: 2022-05-17 07:10:58
  * @LastEditors: 程英明
  * @Description: 检测
  * @FilePath: \use-findjs\src\detector\index.ts

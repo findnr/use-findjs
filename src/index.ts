@@ -1,7 +1,7 @@
 /*
  * @Author: 程英明
  * @Date: 2022-05-08 14:52:23
- * @LastEditTime: 2022-05-13 07:21:01
+ * @LastEditTime: 2022-05-17 07:11:13
  * @LastEditors: 程英明
  * @Description:
  * @FilePath: \use-findjs\src\index.ts
@@ -9,15 +9,14 @@
  */
 
 import * as local from "./local/index"
-console.log(local)
 export const useClocal = () => {
     return local.default;
 }
 
-import * as animation from "./animation/index"
-export const useCanimation = () => {
-    return animation.default;
-}
+// import * as animation from "./animation/index"
+// export const useCanimation = () => {
+//     return animation.default;
+// }
 
 import * as array from "./array/index"
 export const useCarray = () => {

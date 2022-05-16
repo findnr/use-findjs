@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@esbuild-plugins/node-modules-polyfill': ^0.1.4
-  '@types/node': ^17.0.33
+  '@types/node': ^17.0.34
   esbuild: ^0.14.39
   minimist: ^1.2.6
   path: ^0.12.7
@@ -24,17 +24,17 @@ dependencies:
 
 devDependencies:
   '@esbuild-plugins/node-modules-polyfill': 0.1.4_esbuild@0.14.39
-  '@types/node': 17.0.33
+  '@types/node': 17.0.34
   esbuild: 0.14.39
   minimist: 1.2.6
   prettier: 2.6.2
   rollup: 2.73.0
   rollup-plugin-cleanup: 3.2.1_rollup@2.73.0
-  rollup-plugin-sourcemaps: 0.6.3_e17f17b6ec770943853d1861b25eb17b
+  rollup-plugin-sourcemaps: 0.6.3_85d9aa9d640f937edde70ed38467edf9
   rollup-plugin-terser: 7.0.2_rollup@2.73.0
   rollup-plugin-typescript: 1.0.1_tslib@2.4.0+typescript@4.6.4
   rollup-watch: 4.3.1
-  ts-node: 10.7.0_d137954f66cc33e8f3634f2fcf45d3da
+  ts-node: 10.7.0_dc994b1218a6460c8db839c9958fcc28
   tslib: 2.4.0
   tslint: 6.1.3_typescript@4.6.4
   tslint-config-prettier: 1.18.0
@@ -46,7 +46,7 @@ packages:
     resolution: {integrity: sha512-iAXqUn8IIeBTNd72xsFlgaXHkMBMt6y4HJp1tIaK465CWLT/fG1aqB7ykr95gHHmlBdGbFeWWfyB4NJJ0nmeIg==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/highlight': 7.17.9
+      '@babel/highlight': 7.17.12
     dev: true
 
   /@babel/helper-validator-identifier/7.16.7:
@@ -54,8 +54,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@babel/highlight/7.17.9:
-    resolution: {integrity: sha512-J9PfEKCbFIv2X5bjTMiZu6Vf341N05QIY+d6FvVKynkG1S7G0j3I0QoRtWIrXhZ+/Nlb5Q0MzqL7TokEJ5BNHg==}
+  /@babel/highlight/7.17.12:
+    resolution: {integrity: sha512-7yykMVF3hfZY2jsHZEEgLc+3x4o1O+fYyULu11GynEUQNwB6lua+IIQn1FiJxNucd5UlyJryrwsOh8PL9Sn8Qg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
@@ -117,8 +117,8 @@ packages:
     resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
     dev: true
 
-  /@types/node/17.0.33:
-    resolution: {integrity: sha512-miWq2m2FiQZmaHfdZNcbpp9PuXg34W5JZ5CrJ/BaS70VuhoJENBEQybeiYSaPBRNq6KQGnjfEnc/F3PN++D+XQ==}
+  /@types/node/17.0.34:
+    resolution: {integrity: sha512-XImEz7XwTvDBtzlTnm8YvMqGW/ErMWBsKZ+hMTvnDIjGCKxwK5Xpc+c/oQjOauwq8M4OS11hEkpjX8rrI/eEgA==}
     dev: true
 
   /acorn-walk/8.2.0:
@@ -157,14 +157,14 @@ packages:
     dev: true
 
   /arr-diff/2.0.0:
-    resolution: {integrity: sha1-jzuCf5Vai9ZpaX5KQlasPOrjVs8=}
+    resolution: {integrity: sha512-dtXTVMkh6VkEEA7OhXnN1Ecb8aAGFdZ1LFxtOCoqj4qkyOJMt7+qs6Ahdy6p/NQCPYsRSXXivhSB/J5E9jmYKA==}
     engines: {node: '>=0.10.0'}
     dependencies:
       arr-flatten: 1.1.0
     dev: true
 
   /arr-diff/4.0.0:
-    resolution: {integrity: sha1-1kYQdP6/7HHn4VI1dhoyml3HxSA=}
+    resolution: {integrity: sha512-YVIQ82gZPGBebQV/a8dar4AitzCQs0jjXwMPZllpXMaGjXPYVUawSxQrRsjhjupyVxEvbHgUmIhKVlND+j02kA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -174,22 +174,22 @@ packages:
     dev: true
 
   /arr-union/3.1.0:
-    resolution: {integrity: sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ=}
+    resolution: {integrity: sha512-sKpyeERZ02v1FeCZT8lrfJq5u6goHCtpTAzPwJYe7c8SPFOboNjNg1vz2L4VTn9T4PQxEx13TbXLmYUcS6Ug7Q==}
     engines: {node: '>=0.10.0'}
     dev: true
 
   /array-unique/0.2.1:
-    resolution: {integrity: sha1-odl8yvy8JiXMcPrc6zalDFiwGlM=}
+    resolution: {integrity: sha512-G2n5bG5fSUCpnsXz4+8FUkYsGPkNfLn9YvS66U5qbTIXI2Ynnlo4Bi42bWv+omKUCqz+ejzfClwne0alJWJPhg==}
     engines: {node: '>=0.10.0'}
     dev: true
 
   /array-unique/0.3.2:
-    resolution: {integrity: sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=}
+    resolution: {integrity: sha512-SleRWjh9JUud2wH1hPs9rZBZ33H6T9HOiL0uwGnGx9FpE6wKGyfWugmbkEOIs6qWrZhg0LWeLziLrEwQJhs5mQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
   /assign-symbols/1.0.0:
-    resolution: {integrity: sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c=}
+    resolution: {integrity: sha512-Q+JC7Whu8HhmTdBph/Tq59IoRtoy6KAm5zzPv00WdujX82lbAL8K7WVjne7vdCsAmbF4AYaDOPyO3k0kl8qIrw==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -241,7 +241,7 @@ packages:
     dev: true
 
   /braces/1.8.5:
-    resolution: {integrity: sha1-uneWLhLf+WnWt2cR6RS3N4V79qc=}
+    resolution: {integrity: sha512-xU7bpz2ytJl1bH9cgIurjpg/n8Gohy9GTw81heDYLJQ4RU60dlyJsa+atVF2pI0yMMvKxI9HkKwjePCj5XI1hw==}
     engines: {node: '>=0.10.0'}
     dependencies:
       expand-range: 1.8.2
@@ -270,7 +270,7 @@ packages:
     dev: true
 
   /builtin-modules/1.1.1:
-    resolution: {integrity: sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=}
+    resolution: {integrity: sha512-wxXCdllwGhI2kCC0MnvTGYTMvnVZTvqgypkiTI8Pa5tcz2i6VqsqwYGgqwXji+4RgCzms6EajE4IxiUH6HH8nQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -299,7 +299,7 @@ packages:
     dev: true
 
   /chokidar/1.7.0:
-    resolution: {integrity: sha1-eY5ol3gVHIB2tLNg5e3SjNortGg=}
+    resolution: {integrity: sha512-mk8fAWcRUOxY7btlLtitj3A45jOwSAxH4tOFOoEGbVsl6cL6pPMWUy7dwZ/canfj3QEdP6FHSnf/l1c6/WkzVg==}
     deprecated: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
     dependencies:
       anymatch: 1.3.2
@@ -798,8 +798,8 @@ packages:
       is-glob: 2.0.1
     dev: true
 
-  /glob/7.2.2:
-    resolution: {integrity: sha512-NzDgHDiJwKYByLrL5lONmQFpK/2G78SMMfo+E9CuGlX4IkvfKDsiQSNPwAYxEy+e6p7ZQ3uslSLlwlJcqezBmQ==}
+  /glob/7.2.3:
+    resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -1036,7 +1036,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 17.0.33
+      '@types/node': 17.0.34
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -1439,7 +1439,7 @@ packages:
       rollup-plugin-inject: 3.0.2
     dev: true
 
-  /rollup-plugin-sourcemaps/0.6.3_e17f17b6ec770943853d1861b25eb17b:
+  /rollup-plugin-sourcemaps/0.6.3_85d9aa9d640f937edde70ed38467edf9:
     resolution: {integrity: sha512-paFu+nT1xvuO1tPFYXGe+XnQvg4Hjqv/eIhG8i5EspfYYPBKL57X7iVbfv55aNVASg3dzWvES9dmWsL2KhfByw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -1450,7 +1450,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.73.0
-      '@types/node': 17.0.33
+      '@types/node': 17.0.34
       rollup: 2.73.0
       source-map-resolve: 0.6.0
     dev: true
@@ -1711,7 +1711,7 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /ts-node/10.7.0_d137954f66cc33e8f3634f2fcf45d3da:
+  /ts-node/10.7.0_dc994b1218a6460c8db839c9958fcc28:
     resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
     hasBin: true
     peerDependencies:
@@ -1730,7 +1730,7 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 17.0.33
+      '@types/node': 17.0.34
       acorn: 8.7.1
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -1769,7 +1769,7 @@ packages:
       chalk: 2.4.2
       commander: 2.20.3
       diff: 4.0.2
-      glob: 7.2.2
+      glob: 7.2.3
       js-yaml: 3.14.1
       minimatch: 3.1.2
       mkdirp: 0.5.6
