@@ -1,7 +1,7 @@
 /*
  * @Author: 程英明
  * @Date: 2022-05-08 16:32:06
- * @LastEditTime: 2022-05-16 09:59:11
+ * @LastEditTime: 2022-05-16 10:11:10
  * @LastEditors: 程英明
  * @Description: 检测
  * @FilePath: \use-findjs\src\detector\index.ts
@@ -17,9 +17,10 @@ const emial = (val: string, callback: Function | Number = 0): boolean | Function
     if (typeof callback == 'function') return callback(val);
     return true;
 }
-const zh = (val: string, callback: Function | Number = 0): boolean | Function => {
+const zh = (val: string, start: number = 2, end: number = 5, callback: Function | Number = 0, ttt: number): boolean | Function => {
     if (typeof callback == 'function') return callback(val);
-    const reg = /^[\u4e00-\u9fa5]{2,5}$/;
+    const regstr: string = "/^[\u4e00-\u9fa5]{" + start + "," + end + "}$/";
+    const reg = eval(regstr);
     return reg.test(val);
 }
 const password = (val: string, callback: Function | Number = 0): boolean | Function => {
